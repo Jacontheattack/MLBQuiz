@@ -1,0 +1,92 @@
+#preloader {
+  background: white url(img/loader.gif) no-repeat center center;
+  background-size: 25%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-weight: bolder;
+    transition: 0.3s;
+    
+}
+
+.header {
+    padding: 15px;
+    text-align: left;
+    background: blue;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+  }
+
+  .popular {
+    margin : 20px auto;
+    background-color: white;
+    height: 400px;
+    width : 900px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+
+  }
+
+  .regPlayers {
+    margin : 20px auto;
+    background-color: white;
+    height: 300px;
+    width : 600px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+  }
+
+  .braves {
+    margin : 20px auto;
+    background-color: white;
+    height: 150px;
+    width : 150px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .bravesBtn {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    background-color: transparent;
+    transition: 0.3s;
+  }
+
+  .bravesBtn:hover {
+    font-size: 55px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .bryceharper {
+    border-radius: 5px;
+}
+
+.ronald {
+  border-radius: 5px;
+}
